@@ -11,16 +11,16 @@
         <nav>
             <h5>Babatunde Adegboye 😀</h5>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#ContactMe">Contact Me</a></li>
             </ul>
         </nav>
     </header>
-    <section class="hero">
+    <section class="hero" id="Home">
                 <div class="hero_descript">
                     <p class="hero_name">I'm Babatunde Adegboye</p>
                     <p class="hero_dev">Frontend Web Developer</p>
@@ -30,11 +30,11 @@
 
 
                 </div>
-                <div>
-                    <img src="./images/IMG_20250208_091201_913.webp" alt="My Profile Pic" height="200" width="200">
+                <div class="hero_img">
+                    <img src="./images/IMG_20250208_091201_913.webp" alt="My Profile Pic" height="400" width="400">
                 </div>
     </section>
-    <section class="about">
+    <section class="about" id="AboutMe">
                 <h3>About Me</h3>
                 <figure><img src="./images/IMG_20250208_091201_913.webp" alt="profile pic" height="200" width="200">
                 </figure>
@@ -42,59 +42,65 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta architecto aliquam accusamus impedit rem sint quaerat maiores eum. Voluptatum voluptatem officia nam dolorem rem accusantium aperiam? Ut, quam possimus.</p>
                 
     </section>
-    <section class="education">
+    <section class="education" id="Education">
         <h3>My Education</h3>
-        <p>Education</p>
+        <div class="education_details">
         <div class="education_info_one">
-            <div>
+            <p>Education</p>
+            <div class="education_info_details">
                 <p>2019-2020</p>
                 <p>Degree college</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis consequuntur maiores, numquam beatae similique quibusdam aut voluptatibus assumenda a cum possimus aliquam. Dolores rerum accusantium impedit voluptatibus, voluptatem sunt dolorem.</p>
             </div>
-            <div>
+            <div  class="education_info_details">
                 <p>2020-2023</p>
                 <p>Leaving School Certificate</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis consequuntur maiores, numquam beatae similique quibusdam aut voluptatibus assumenda a cum possimus aliquam. Dolores rerum accusantium impedit voluptatibus, voluptatem sunt dolorem.</p>
             </div>
         </div>
         <div class="education_info_two">
-            <div>
+            <p>Education</p>
+            <div  class="education_info_details">
                 <p>2019-2020</p>
                 <p>Degree college</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis consequuntur maiores, numquam beatae similique quibusdam aut voluptatibus assumenda a cum possimus aliquam. Dolores rerum accusantium impedit voluptatibus, voluptatem sunt dolorem.</p>
             </div>
-            <div>
+            <div  class="education_info_details">
                 <p>2020-2023</p>
                 <p>Leaving School Certificate</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis consequuntur maiores, numquam beatae similique quibusdam aut voluptatibus assumenda a cum possimus aliquam. Dolores rerum accusantium impedit voluptatibus, voluptatem sunt dolorem.</p>
             </div>
         </div>
+    </div>
     </section>
-    <section class="skillset">
+    <section class="skillset" id="Skills">
         <h3>My Skills</h3>
-        <div>
-            <p>Language</p>
-            <div>
-                <p>HTML</p>
-                <input type="range">
-                <p>CSS</p>
-                <input type="range" > 
-                <p>JAVASCRIPT</p>
-                <input type="range" >
+        <div class="skillset_layout">
+            <div><p>Language</p>
+                <div class="skillset_box">
+                    <p>HTML</p>
+                    <progress max="100" value="90">lonveee</progress>
+                    <p>CSS</p>
+                    <progress max="100" value="80"></progress>
+                    <p>JAVASCRIPT</p>
+                    <progress max="100" value="60"></progress>
+                </div>
             </div>
-            <p>Language</p>
             <div>
-                
-                <p>REACT JS</p>
-                <input type="range" >
-                <p>BOOTSTRAP</p>
-                <input type="range" > 
-                <p>TAILWIND CSS</p>
-                <input type="range" >
+                    <p>Language</p>
+                    <div class="skillset_box">
+                        <p>REACT JS</p>
+                        <progress max="100" value="60"></progress>
+                        <p>BOOTSTRAP</p>
+                        <progress max="100" value="60"></progress>
+                        <p>TAILWIND CSS</p>
+                        <progress max="100" value="60"></progress>
+                </div>
             </div>
+            
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="Projects">
         <h3>My Projects</h3>
         <div><img src="" alt="">Calculator</div>
         <div><img src="" alt="">Delivery company with Bootstrap</div>
@@ -103,15 +109,28 @@
         <div><img src="" alt="">Dispute Resolution Website</div>
         <div><img src="" alt="">Fylo Project</div>
     </section>
-    <section class="contact">
+    <section class="contact" id="ContactMe">
         <h3>Contact Me</h3>
-        <form action="/submit_contact_form" method="post"> 
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Subject">
-            <textarea name="message" id="mesage" rows="2" cols="20"></textarea>
-            
+        <form action="/submit_contact_form" method="post">
+            <div class="contact_form">
+                <div>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div>
+                    <input type="email" placeholder="Email" required>
+                </div>    
+                <div>
+                    <input type="number" placeholder="Mobile Number" max="12" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="textarea">
+                    <!-- <input type="text" class="textarea"> -->
+                    <textarea name="" id="" cols="100" rows="18" placeholder="Write ur Message"></textarea>
+                </div> 
+            </div>
+            <button>Send Message</button>
         </form>
     </section>
 
