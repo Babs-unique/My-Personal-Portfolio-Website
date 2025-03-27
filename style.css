@@ -41,6 +41,11 @@ ul li a{
     width: 600px;
     margin: auto;
 }
+.hero_descript button{
+    margin-left: 0;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
 .hero_img{
     margin: auto;
 }
@@ -118,5 +123,14 @@ input{
 button{
     margin-top: 40px;
     margin-left: 650px;
+}
+.projects h3{
+    text-align: center;
+}
+.project_collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px
 }
 
