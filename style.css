@@ -231,3 +231,37 @@ ul li a:hover{
     padding: 8px 15px;
     border-radius: 20px;
 }
+.services{
+    background-color: var(--hero-background);
+    color: var(--color);
+    height: 100%;
+    padding: 3% 0;
+}
+.services h1{
+    text-align: center;
+    color: var(--color);
+    font-size: var(--title-font-size);
+}
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3%;
+    gap: 20px;
+    text-align: center;
+    height: 100%;
+    
+}
+.service-card{
+    background-color: var(--about-background);
+    border-radius: 15px;
+}
+.service-card p{
+    padding: 15px;
+}
+.service-card img{
+    border-radius: 15px;
+    padding: none;
+}
+.bug-fixing{
+    grid-column: 2/3;
+}
