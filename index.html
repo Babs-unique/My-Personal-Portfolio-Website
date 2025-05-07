@@ -11,25 +11,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sono:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            email.js.init({
+                publicKey:"EOJCpLEjX5dEs13EM",
+            })
+        })();
+    </script>
 </head>
 <body>
     <header>
-        <nav>
-            <h3>Babatunde Adegboye 👋</h3>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="#"><i class="fa-brands fa-github" style="color: #fffff"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin" style="color: #fffff"></i></a></li>
-               <!--  <li><a href="#"><i class="fa-solid fa-sun" style="color: #fffff"></i></a></li> -->
-            </ul>
+        <nav class="nav">
+            <div class="logo">
+                <h3>Babatunde Adegboye 👋</h3>
+            </div>
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="https://github.com/Babs-unique"><i class="fa-brands fa-github" style="color: #fff"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/babatunde-adegboye-b8595526a/"><i class="fa-brands fa-linkedin" style="color: #ffff"></i></a></li>
+                    <li><a href="mailto:babatundeadegboye2008@gmail.com"> <i class="fa-solid fa-envelope" style="color: white;"></i></a></li>
+                </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
-    </header>
-    
+    </header> 
     <section class="hero" id="Home">
         <div class="hero-text">
             <h1>Hi, I'm Babatunde Adegboye</h1>
@@ -42,7 +57,7 @@
         </div>
     </section>
     <section class="about" id="About">
-        <h1>About Me</h1>
+        <h1 class="aboutMe-h1">About Me</h1>
         <div class="about-details">
         <div class="about-img">
             <img src="./images/premium_photo-1726754457459-d2dfa2e3a434.jpeg" alt="Simple workspace Setup" width="500" height="350">
@@ -53,7 +68,7 @@
     </div>
     </section>
     <section class="skills" id="Skills">
-        <h2>Skills & Expertise</h2>
+        <h2 class="skill-title">Skills & Expertise</h2>
         <div class="skill-category">
         <div class="frontend-skills">
             <h3>Frontend</h3>
@@ -149,7 +164,7 @@
     </div>
     </section>
     <section class="project" id="Projects">
-        <h2>Featured Projects</h2>
+        <h2 class="project-title">Featured Projects</h2>
         <div class="project-collection">
             <div class="projects one">
                 <img src="./images/Calculator2.png" alt="Calculator Project" height="280">
@@ -166,13 +181,13 @@
                 </div>     
             </div>
             <div class="projects two">
-                <img src="./images/Calculator2.png" alt="Calculator Project"  height="280">
+                <img src="./images/Bento Grid.png" alt="TinDog website Project"  height="280">
                 <div class="project-content">
-                    <b>Calculator Project</b>
-                    <p>A fully functional calculator with HTML,CSS and JavaScript</p>
+                    <b>Bento Grid</b>
+                    <p>A Complex Grid Layout Website</p>
                     <span>HTML</span>
                     <span>CSS</span>
-                    <span>JavaScript</span>
+                    <span>Grid Layout</span>
                     <div class="visit-menu">
                         <a href="#"><i class="fa-brands fa-github"></i></a>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>       
@@ -180,13 +195,13 @@
                 </div>     
             </div>
             <div class="projects three">
-                <img src="./images/Calculator2.png" alt="Calculator Project" height="280">
+                <img src="./images/babs-unique.github.io_Delivery-Company-website_.png" alt="Delivery Company Website" height="280">
                 <div class="project-content">
-                    <b>Calculator Project</b>
-                    <p>A fully functional calculator with HTML,CSS and JavaScript</p>
+                    <b>Delivery Company Website</b>
+                    <p>A Simple Delivery Company Website using Bootstrap</p>
                     <span>HTML</span>
                     <span>CSS</span>
-                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
                     <div class="visit-menu">
                         <a href="#"><i class="fa-brands fa-github"></i></a>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>       
@@ -196,7 +211,7 @@
         </div>
     </section>
     <section class="services" id="Services">
-        <h1>Services</h1>
+        <h1 class="service-title">Services</h1>
         <div class="service-container">
             <div class="service-card">
                 <img src="./images/web-development-concept-with-plexus-background-seo-website-app-design-digital-network-design_618588-1215.jpg" alt="Web development" width="100%" height="250">
@@ -221,21 +236,46 @@
         </div>
     </section>
     <section class="Contact" id="Contact">
-        <h1>Get In Touch</h1>
+        <h1 class="contact-title">Get In Touch</h1>
         <div class="contact-container">
             <div class="contact-details">
+                <div class="contact-info">
                 <h3>Contact Information</h3>
-
+                <div class="contact-email">
+                    <i class="fa-solid fa-envelope" style="color: white;"></i>
+                    <span>babatundeadegboye2008@gmail.com</span>
+                </div>
+                <div class="contact-address">
+                    <i class="fa-solid fa-location-dot" style="color: white;"></i>
+                    <span>Available Worldwide</span>
+                </div>
+            </div>
+            <div class="follow-me">
+                <h3>Follow Me</h3>
+                <a href="https://github.com/Babs-unique"> <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/babatunde-adegboye-b8595526a/"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href=" https://x.com/babatunde052008?t=rVrh8obsE-zr_Is505hJhQ&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/titilopeadegboye2?igsh=cHp0Z3BrZjFzcnEy"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1C9rugiM9V/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
             </div>
             <div class="contact-form">
-
+                <form>
+                    <input type="text" id="name" placeholder="Name" required>
+                <br>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <br>
+                    <input type="text" id="Subject" placeholder="Subject">
+                    <br>
+                    <textarea name="Message" id="Message" placeholder="Enter Your Message"></textarea>
+                    <button class="send" onclick="sendEmail()">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
-
-
-
-
+    <footer>
+            <p class="footer-text">©2025 Adegboye Babatunde | Web Developer | Remote</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
