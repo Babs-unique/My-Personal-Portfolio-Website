@@ -107,6 +107,13 @@ nav{
     background-color: var(--hero-button);
     border: none;
 }
+.project-btn a,
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
 .contact-btn{
     color: white;
     background-color:transparent;
@@ -529,7 +536,7 @@ footer{
     .project,
     .services,
     footer{
-        width: 1500px;
+        width: 102%;
         padding: 10%;
     }
     nav{
@@ -539,6 +546,12 @@ footer{
     }
     .logo{
         margin-left: 4rem;
+    }
+    .about-details{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
     }
 }
 @media screen and (max-width:768px) {
