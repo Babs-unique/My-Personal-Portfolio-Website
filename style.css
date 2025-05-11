@@ -529,16 +529,6 @@ footer{
     }
 }
 @media (min-width:769px) and (max-width:1024px) {
-    .hero,
-    .about,
-    .skills,
-    .Contact,
-    .project,
-    .services,
-    footer{
-        width: 102%;
-        padding: 10%;
-    }
     nav{
         display: flex;
         justify-content: space-between;
@@ -552,6 +542,16 @@ footer{
         justify-content: space-between;
         align-items: center;
         gap: 50px;
+    }
+    .hero,
+    .about,
+    .skills,
+    .Contact,
+    .project,
+    .services,
+    footer{
+        width: 1500px;
+        padding: 10%;
     }
 }
 @media screen and (max-width:768px) {
