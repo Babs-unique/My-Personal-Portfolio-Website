@@ -559,7 +559,7 @@ footer{
         position: absolute;
         right: 0px;
         height: 100vh;
-        top: 10vh;
+        top: 8vh;
         background-color:var(--header-color);
         display: flex;
         flex-direction: column;
