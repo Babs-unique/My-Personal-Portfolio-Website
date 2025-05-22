@@ -7,6 +7,7 @@ body{
     scroll-behavior: smooth;
     color: var(--color);
     user-select: none;
+    overflow-x: hidden;
 }
 :root{
     --header-color :#0c1335;
@@ -478,6 +479,34 @@ footer{
         align-items: center;
         justify-content: baseline;
     }
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 10%;
+    }
+
+    .hero-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-details {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skill-category {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-collection,
+    .service-container,
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
 @media (min-width:376px) and (max-width:425px) {
     .hero,
@@ -516,7 +545,7 @@ footer{
     .project,
     .services,
     footer{
-        width: 1500px;
+        width:140%;
         padding: 10%;
     }
     nav{
@@ -550,8 +579,24 @@ footer{
     .project,
     .services,
     footer{
-        width: 1500px;
+        width: 140%;  
         padding: 10%;
+    }
+    .about-details {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .skill-category {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .project-collection,
+    .service-container,
+    .contact-container {
+        flex-direction: row;
+        gap: 40px;
     }
 }
 @media screen and (max-width:768px) {
