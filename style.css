@@ -385,6 +385,11 @@ footer{
     padding: 5px;
 }
 @media (min-width:320px) and (max-width:375px){
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .logo{
         padding-left: 10px;
         font-size: 18px;
@@ -509,6 +514,11 @@ footer{
 
 }
 @media (min-width:376px) and (max-width:425px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .hero,
     .about,
     .skills,
@@ -558,6 +568,11 @@ footer{
     }
 }
 @media (min-width:769px) and (max-width:1024px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     nav{
         display: flex;
         justify-content: space-between;
