@@ -412,18 +412,39 @@ footer{
     .hero-image img{
         width: 250px;
         height: 250px;
+        margin-left: -60px;
     }
     .hero-text{
         display: block;
         width: 100%;
+        margin-left: -70px;
+        width: 270px;
+    }
+    .contact-btn{
+        padding: 0 30px;
+        width: 160px;
+    }
+    .about-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
     .about-img img{
-        width: 300px;
+        object-fit: cover;
+        width: 260px;
+        margin-left: -20px;
     }
     .about-text{
         height:50%;
-        width: 100%;
+        width: 80%;
+        margin-left: -10px;
     }
+    .aboutMe-h1{
+        text-align: center;
+    }
+
     .about,
     .skills,
     .project,
@@ -431,8 +452,6 @@ footer{
     .Contact,
     footer{
         height: 100%;
-        width: 100%;
-        padding: 10%;
     }
     .about-details{
         display: flex;
@@ -441,7 +460,37 @@ footer{
     .skill-category{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
+    .skills{
+        width: 100%;
+    }
+    .frontend-skills,
+    .frameworks-libraries,
+    .extras{
+        width: 80%;
+    }
+    .filler{
+        width: 90%;
+    }
+    .filler-container{
+        width:100%;
+    }
+    .html{
+    width:95%;
+}
+.react{
+    width: 70%;
+}
+.bootstrap,.github{
+    width:85%;
+}
+.tailwind,.jquery{
+    width: 75%;
+}
+.design{
+    width: 90%;
+}
     .project,
     .services,
     .Contact{
@@ -460,7 +509,7 @@ footer{
         margin-left: -50%;
     }
     form input{
-        width: 200px;
+        width: 100%;
         height: 20px;
         margin-top: 15px;
         padding: 5px;
@@ -470,11 +519,11 @@ footer{
         margin-left: -40px;
     }
     textarea{
-        width: 200px;
+        width: 100%;
         margin-left: -40px;
     }
     .send{
-        width: 220px;
+        width: 110%;
         margin-left: -40px;
     }
     .contact-email,
@@ -526,8 +575,7 @@ footer{
     .project,
     .services,
     footer{
-        min-width: 1200px;
-        max-width: 1500px;
+        width: 100%;
         padding: 10%;
     }
     .project{
@@ -546,6 +594,203 @@ footer{
     .hamburger{
         margin-right: 4rem;
     }
+    .logo{
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    nav ul{
+        display: none;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20%;
+    }
+    .hero-image{
+        margin-top: 50%;
+    }
+    .hero-image img{
+        width: 250px;
+        height: 250px;
+        margin-left: -60px;
+    }
+    .hero-text{
+        display: block;
+        width: 100%;
+        margin-left: -70px;
+        width: 400px;
+    }
+    .contact-btn{
+        padding: 0 30px;
+        width: 160px;
+    }
+    .about-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .about-img img{
+        object-fit: cover;
+        width: 350px;
+        margin-left: -60px;
+    }
+    .about-text{
+        height:50%;
+        width: 80%;
+        margin-left: -50px;
+        text-align: center;
+    }
+    .aboutMe-h1{
+        text-align: center;
+    }
+
+    .about,
+    .skills,
+    .project,
+    .services,
+    .Contact,
+    footer{
+        height: 100%;
+        width: 100%;
+    }
+    .about-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-category{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -40px;
+    }
+    .skills{
+        width: 100%;
+    }
+    .frontend-skills,
+    .frameworks-libraries,
+    .extras{
+        width: 80%;
+    }
+    .filler{
+        width: 90%;
+    }
+    .filler-container{
+        width:100%;
+    }
+    .html{
+    width:95%;
+}
+.project-collection,
+.service-container{
+    width: 90%;
+    margin-left: -30px;
+}
+.react{
+    width: 70%;
+}
+.bootstrap,.github{
+    width:85%;
+}
+.tailwind,.jquery{
+    width: 75%;
+}
+.design{
+    width: 90%;
+}
+    .project,
+    .services,
+    .Contact{
+        height: 100%;
+    }
+    .project-collection,
+    .service-container,
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-details span{
+        display: inline;
+    }
+    .follow-me{
+        margin-left: -50%;
+    }
+    form input{
+        width: 100%;
+        height: 20px;
+        margin-top: 15px;
+        padding: 5px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-left: -70px;
+    }
+    textarea{
+        width: 100%;
+        margin-left: -70px;
+    }
+    .send{
+        width: 106%;
+        margin-left: -70px;
+    }
+    .contact-email,
+    .contact-address{
+        display:flex ;
+        flex-direction: row;
+        align-items: center;
+        justify-content: baseline;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 10%;
+    }
+
+    .hero-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-details {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skill-category {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-details{
+        margin-left: -70px;
+    }
+    .contact-info{
+        margin-left: -75px;
+    }
+
+    .project-collection,
+    .service-container,
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        text-align: center;
+        width: 80%;
+    }
+    .Contact h1,
+    .services h1,
+    .project h2,
+    .skills h2,
+    .about h1{
+        margin-left: -50px;
+        text-align: center;
+    }
+
 }
 @media (min-width:426px) and (max-width:768px) {
     .hero,
@@ -578,6 +823,9 @@ footer{
         justify-content: space-between;
         align-items: center;
     }
+    .nav-links{
+        width: 50%;
+    }
     .logo{
         margin-left: 4rem;
     }
@@ -594,17 +842,29 @@ footer{
     .project,
     .services,
     footer{
-        width: 140%;  
-        padding: 10%;
+        width: 100%;  
     }
     .about-details {
         flex-direction: row;
         gap: 40px;
     }
+    .hero-image {
+        width: 50%;
+    }
+    .hero-text{
+        width: 50%;
+    }
+    .project{
+        height: 100%;
+    }
+    .project-collection{
+        flex-wrap: wrap;
+    }
 
     .skill-category {
         flex-direction: row;
         gap: 40px;
+        flex-wrap: wrap;
     }
 
     .project-collection,
@@ -613,6 +873,7 @@ footer{
         flex-direction: row;
         gap: 40px;
     }
+
 }
 @media screen and (max-width:768px) {
     .nav-links{
